@@ -8,7 +8,7 @@ import (
 	"path"
 	"runtime"
 
-    "github.com/zenazn/goji"
+	"github.com/zenazn/goji"
 )
 
 var (
@@ -36,8 +36,8 @@ func main() {
 		os.Exit(0)
 	}
 
-    goji.Handle("/", dump)
-    goji.Serve()
+	goji.Handle("/", dump)
+	goji.Serve()
 
 	os.Exit(0)
 }

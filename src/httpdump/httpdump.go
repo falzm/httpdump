@@ -14,7 +14,7 @@ import (
 func dump(w http.ResponseWriter, r *http.Request) {
 	var jsonData interface{}
 
-    defer r.Body.Close()
+	defer r.Body.Close()
 
 	for headerName, headerValue := range r.Header {
 		fmt.Printf("%s %s: %s\n", color.YellowString("[H]"), headerName, headerValue[0])
@@ -29,14 +29,14 @@ func dump(w http.ResponseWriter, r *http.Request) {
 	if getContentType(r) == "application/json" {
 		if err := json.Unmarshal(body, &jsonData); err != nil {
 			fmt.Printf("%s error: request Content-Type is application/json, but unable to process JSON %s\n", color.RedString("[!]"), err)
-            fmt.Printf("%s %s\n", color.CyanString("[B]"), body)
+			fmt.Printf("%s %s\n", color.CyanString("[B]"), body)
 		} else {
 			jf := prettyjson.NewFormatter()
 			j, _ := jf.Format(body)
 			fmt.Printf("%s %s\n", color.CyanString("[B]"), j)
 		}
 	} else {
-        fmt.Printf("%s %s\n", color.CyanString("[B]"), body)
+		fmt.Printf("%s %s\n", color.CyanString("[B]"), body)
 	}
 }
 
