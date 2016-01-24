@@ -72,4 +72,4 @@ $ curl -X POST -H 'Content-Type: application/json' -d '{"key1":"value","key2":42
 
 ## License
 
-`httpdump` is released under the MIT license, see the LICENSE.md file for details.
+`httpdump` is released under the MIT license, see the LICENSE file for details.
