@@ -36,7 +36,7 @@ func main() {
 		os.Exit(0)
 	}
 
-	goji.Handle("/", dump)
+	goji.Handle("/*", dump)
 	goji.Serve()
 
 	os.Exit(0)
