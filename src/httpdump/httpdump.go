@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net/http"
+	"sort"
 	"strings"
 
 	"github.com/fatih/color"
@@ -16,8 +17,10 @@ func dump(w http.ResponseWriter, r *http.Request) {
 
 	defer r.Body.Close()
 
-	for headerName, headerValue := range r.Header {
-		fmt.Printf("%s %s: %s\n", color.YellowString("[H]"), headerName, headerValue[0])
+	r.Header.Set("Host", r.Host)
+
+	for _, header := range sortHeaderKeys(r.Header) {
+		fmt.Printf("%s %s: %s\n", color.YellowString("[H]"), header, r.Header.Get(header))
 	}
 
 	body, err := ioutil.ReadAll(r.Body)
@@ -62,4 +65,16 @@ func getContentType(input interface{}) string {
 	}
 
 	return contentType
+}
+
+func sortHeaderKeys(headers http.Header) []string {
+	var keys []string
+
+	for k := range headers {
+		keys = append(keys, k)
+	}
+
+	sort.Strings(keys)
+
+	return keys
 }
