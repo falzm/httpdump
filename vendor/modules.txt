@@ -1,0 +1,18 @@
+# github.com/fatih/color v0.0.0-20151111120202-9aae6aaa2231
+github.com/fatih/color
+# github.com/hokaccha/go-prettyjson v0.0.0-20141201065330-f75235bd99da
+github.com/hokaccha/go-prettyjson
+# github.com/mattn/go-colorable v0.0.0-20151127014555-3dac7b4f76f6
+github.com/mattn/go-colorable
+# github.com/mattn/go-isatty v0.0.0-20151211000621-56b76bdf51f7
+github.com/mattn/go-isatty
+# github.com/zenazn/goji v0.0.0-20151120200311-bf843a174a08
+github.com/zenazn/goji
+github.com/zenazn/goji/bind
+github.com/zenazn/goji/graceful
+github.com/zenazn/goji/web
+github.com/zenazn/goji/web/middleware
+github.com/zenazn/goji/graceful/listener
+github.com/zenazn/goji/web/mutil
+# golang.org/x/sys v0.0.0-20190425045458-9f0b1ff7b46a
+golang.org/x/sys/unix

@@ -6,7 +6,7 @@ Note: this utility is currently in a very rudimentary form since it started as a
 
 ## Build
 
-Building httpdump from sources requires the GNU Make and [gb](https://getgb.io/) utility. To build it, simply execute `make` at the root of the source tree, and if everything goes well the binary can be found in the `bin/` directory.
+To build `httpdump` from source, simply execute `make` at the root of the source tree, and if everything goes well the binary can be found in the current directory.
 
 ## Usage
 

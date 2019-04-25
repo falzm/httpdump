@@ -1,0 +1,13 @@
+github.com/fatih/color v0.0.0-20151111120202-9aae6aaa2231 h1:SJQOrTKavQKN9enteIYsYLMIk4Qz1bs+ayguw0JqiCY=
+github.com/fatih/color v0.0.0-20151111120202-9aae6aaa2231/go.mod h1:Zm6kSWBoL9eyXnKyktHP6abPY2pDugNf5KwzbycvMj4=
+github.com/goji/param v0.0.0-20150423055352-da86c81e3e3c/go.mod h1:GZJblUu7ACjguvQUK2un6nQBlnZk7H1MzXZdfrFUd8Q=
+github.com/hokaccha/go-prettyjson v0.0.0-20141201065330-f75235bd99da h1:oAWnYJWp6dui/q7a6g4bpLtxl2X3QTErdognIu1a/yM=
+github.com/hokaccha/go-prettyjson v0.0.0-20141201065330-f75235bd99da/go.mod h1:pFlLw2CfqZiIBOx6BuCeRLCrfxBJipTY0nIOF/VbGcI=
+github.com/mattn/go-colorable v0.0.0-20151127014555-3dac7b4f76f6 h1:hDKzCQGDZSTNHiscA+DIvmqFNVL/NOGA570T4hTOi0Q=
+github.com/mattn/go-colorable v0.0.0-20151127014555-3dac7b4f76f6/go.mod h1:9vuHe8Xs5qXnSaW/c/ABM9alt+Vo+STaOChaDxuIBZU=
+github.com/mattn/go-isatty v0.0.0-20151211000621-56b76bdf51f7 h1:owMyzMR4QR+jSdlfkX9jPU3rsby4++j99BfbtgVr6ZY=
+github.com/mattn/go-isatty v0.0.0-20151211000621-56b76bdf51f7/go.mod h1:M+lRXTBqGeGNdLjl/ufCoiOlB5xdOkqRJdNxMWT7Zi4=
+github.com/zenazn/goji v0.0.0-20151120200311-bf843a174a08 h1:bIsHnPMOikkee9C709x8NJdp8fsm9j/GKQfGsCqtWKo=
+github.com/zenazn/goji v0.0.0-20151120200311-bf843a174a08/go.mod h1:7S9M489iMyHBNxwZnk9/EHS098H4/F6TATF2mIxtB1Q=
+golang.org/x/sys v0.0.0-20190425045458-9f0b1ff7b46a h1:8cVTj31lbQ2I9z63Y1LjjHVKGisLuXDt12kKR0+r89w=
+golang.org/x/sys v0.0.0-20190425045458-9f0b1ff7b46a/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
